@@ -1,0 +1,47 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    networks:
+      - postgres-network
+  
+
+  react:
+    image: thiago514/react:1.0
+    ports:
+      - "5173:5173"
+    depends_on:
+      - express-ts
+    networks:
+      - postgres-network
+  express-ts:
+    image: thiago514/express-ts:1.0
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_started
+      
+    networks:
+      - postgres-network
+
+  python:
+    image: thiago514/fastapi:1.0
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_started
+      
+    networks:
+      - postgres-network
+
+networks:
+  postgres-network:
+    driver: bridge
+
+

@@ -1,0 +1,1 @@
+{"nome": " bin\u00f4mio", "extencao_do_arquivo": "CSV", "tabelas": [{"nome": " queima-roupa", "campos": [{"nome": " muito", "tipo": "float", "permite_nulo": true}, {"nome": " epifania", "tipo": "float", "permite_nulo": false}, {"nome": " xarada", "tipo": "int", "permite_nulo": true}]}]}

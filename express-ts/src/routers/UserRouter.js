@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var UserController_js_1 = require("../controller/UserController.js");
+var auth_js_1 = require("../resource/auth.js");
+var userRouter = (0, express_1.Router)();
+userRouter.post('/registrar', UserController_js_1.default.registar);
+userRouter.post('/permitirUsuario', auth_js_1.usuarioADM, UserController_js_1.default.permitirUsuario);
+userRouter.post('/login', UserController_js_1.default.login);
+userRouter.delete('/deletar/:id', auth_js_1.usuarioADM, UserController_js_1.default.deletar);
+userRouter.get('/listarUsuariosPendentes', auth_js_1.usuarioADM, UserController_js_1.default.listarUsuariosPendentes);
+userRouter.get('/listarUsuarios', auth_js_1.usuarioADM, UserController_js_1.default.listarUsuarios);
+userRouter.post('/alterarStatus', auth_js_1.usuarioADM, UserController_js_1.default.alterarStatus);
+userRouter.put('/alterarUsuario', auth_js_1.usuarioADM, UserController_js_1.default.alterarUsuario);
+userRouter.put('/alterarMeuUsuario', auth_js_1.usuarioAutorizado, UserController_js_1.default.alterarMeuUsuario);
+userRouter.get('/tokenValido', auth_js_1.usuarioAutorizado, UserController_js_1.default.tokenValido);
+userRouter.get('/verificaADM', auth_js_1.usuarioADM, UserController_js_1.default.usuarioADM);
+exports.default = userRouter;

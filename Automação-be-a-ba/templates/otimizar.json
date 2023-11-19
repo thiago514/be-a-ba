@@ -1,0 +1,1 @@
+{"nome": " otimizar", "extencao_do_arquivo": "CSV", "tabelas": [{"nome": " intercorr\u00eancia", "campos": [{"nome": " l\u00edrico", "tipo": "text", "permite_nulo": true}, {"nome": "aur\u00e9lio", "tipo": "int", "permite_nulo": true}, {"nome": " mensur\u00e1vel", "tipo": "int", "permite_nulo": false}]}]}

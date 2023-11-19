@@ -1,0 +1,21 @@
+{
+  "Template": {
+    "id": 1,
+    "nome": "Template 1",
+    "tipo Arquivo": "XLSX",
+    "tabelas": [
+      {
+        "id": 1,
+        "nome": "Template 1",
+        "colunas": [
+          {
+            "id": 1,
+            "campo": "Valor",
+            "tipo": "real",
+            "permiteNull": false
+          }
+        ]
+      }
+    ]
+  }
+}

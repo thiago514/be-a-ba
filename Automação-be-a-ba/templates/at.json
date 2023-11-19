@@ -1,0 +1,41 @@
+{
+  "nome": "at",
+  "extencao_do_arquivo": "XLSX",
+  "tabelas": [
+    {
+      "nome": "fuga",
+      "campos": [
+        { "nome": "iste", "tipo": "float", "permite_nulo": true },
+        { "nome": "doloribus", "tipo": "int", "permite_nulo": true },
+        { "nome": "soluta", "tipo": "text", "permite_nulo": false },
+        { "nome": "exercitationem", "tipo": "bool", "permite_nulo": true },
+        { "nome": "repellat", "tipo": "text", "permite_nulo": false },
+        { "nome": "unde", "tipo": "datetime", "permite_nulo": false },
+        { "nome": "dicta", "tipo": "int", "permite_nulo": true }
+      ]
+    },
+    {
+      "nome": "cumque",
+      "campos": [
+        { "nome": "quia", "tipo": "bool", "permite_nulo": true },
+        { "nome": "quidem", "tipo": "datetime", "permite_nulo": false },
+        { "nome": "placeat", "tipo": "float", "permite_nulo": true },
+        { "nome": "nam", "tipo": "text", "permite_nulo": true },
+        { "nome": "vel", "tipo": "int", "permite_nulo": false },
+        { "nome": "delectus", "tipo": "float", "permite_nulo": true },
+        { "nome": "sint", "tipo": "float", "permite_nulo": false },
+        { "nome": "maiores", "tipo": "bool", "permite_nulo": false }
+      ]
+    },
+    {
+      "nome": "nesciunt",
+      "campos": [
+        { "nome": "nihil", "tipo": "float", "permite_nulo": true },
+        { "nome": "quibusdam", "tipo": "float", "permite_nulo": true },
+        { "nome": "in", "tipo": "text", "permite_nulo": true },
+        { "nome": "exercitationem", "tipo": "bool", "permite_nulo": true },
+        { "nome": "quam", "tipo": "bool", "permite_nulo": true }
+      ]
+    }
+  ]
+}

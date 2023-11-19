@@ -1,0 +1,13 @@
+{
+  "nome": " acento",
+  "extencao_do_arquivo": "CSV",
+  "tabelas": [
+    {
+      "nome": " encarecidamente",
+      "campos": [
+        { "nome": " ins\u00f3lito", "tipo": "bool", "permite_nulo": true },
+        { "nome": " b\u00e1rbaro", "tipo": "bool", "permite_nulo": true }
+      ]
+    }
+  ]
+}

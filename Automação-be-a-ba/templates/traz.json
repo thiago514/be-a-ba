@@ -1,0 +1,1 @@
+{"nome": " traz", "extencao_do_arquivo": "XLSX", "tabelas": [{"nome": " brando", "campos": [{"nome": " ubiquidade", "tipo": "datetime", "permite_nulo": true}, {"nome": " car\u00e1ter", "tipo": "text", "permite_nulo": true}, {"nome": " legado", "tipo": "text", "permite_nulo": false}]}]}

@@ -1,0 +1,50 @@
+{
+  "nome": " atemporal",
+  "extencao_do_arquivo": "XLS",
+  "tabelas": [
+    {
+      "nome": " estagnado",
+      "campos": [
+        { "nome": " burocracia", "tipo": "float", "permite_nulo": true },
+        { "nome": " end\u00eamico", "tipo": "datetime", "permite_nulo": true },
+        { "nome": " deveras", "tipo": "int", "permite_nulo": false }
+      ]
+    },
+    {
+      "nome": " dimens\u00e3o",
+      "campos": [
+        { "nome": " benem\u00e9rito", "tipo": "bool", "permite_nulo": false },
+        { "nome": " destreza", "tipo": "bool", "permite_nulo": true },
+        { "nome": " complacente", "tipo": "datetime", "permite_nulo": false },
+        { "nome": " admoestar", "tipo": "bool", "permite_nulo": false },
+        { "nome": " bem-vindo", "tipo": "float", "permite_nulo": true },
+        { "nome": " bom", "tipo": "datetime", "permite_nulo": false },
+        { "nome": " apre\u00e7o", "tipo": "bool", "permite_nulo": false }
+      ]
+    },
+    {
+      "nome": " contemplar",
+      "campos": [{ "nome": " devasso", "tipo": "float", "permite_nulo": false }]
+    },
+    {
+      "nome": " bruma",
+      "campos": [
+        { "nome": " ativista", "tipo": "bool", "permite_nulo": true },
+        { "nome": " excitado", "tipo": "bool", "permite_nulo": false },
+        { "nome": " bobo", "tipo": "int", "permite_nulo": false },
+        { "nome": " contemplar", "tipo": "text", "permite_nulo": true },
+        { "nome": " bilateral", "tipo": "bool", "permite_nulo": false },
+        { "nome": " escroto", "tipo": "int", "permite_nulo": true },
+        { "nome": " d\u00e1diva", "tipo": "bool", "permite_nulo": true },
+        { "nome": " doutrina", "tipo": "text", "permite_nulo": false }
+      ]
+    },
+    {
+      "nome": " bin\u00f4mio",
+      "campos": [
+        { "nome": " benefic\u00eancia", "tipo": "bool", "permite_nulo": true },
+        { "nome": " corroborar", "tipo": "int", "permite_nulo": false }
+      ]
+    }
+  ]
+}

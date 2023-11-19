@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var TemplateController_js_1 = require("../controller/TemplateController.js");
+var auth_js_1 = require("../resource/auth.js");
+var auth_js_2 = require("../resource/auth.js");
+var templateRouter = (0, express_1.Router)();
+templateRouter.use(auth_js_1.usuarioAutorizado);
+templateRouter.post("/", TemplateController_js_1.default.criarTemplate);
+templateRouter.get("/", auth_js_2.usuarioADM, TemplateController_js_1.default.listarTodosTemplates);
+templateRouter.get("/pendente", auth_js_2.usuarioADM, TemplateController_js_1.default.listarTemplatesPendentes);
+templateRouter.post("/status", auth_js_2.usuarioADM, TemplateController_js_1.default.alterarStatus);
+templateRouter.get("/visualizar", TemplateController_js_1.default.visualizarTemplateUser);
+templateRouter.get("/ativos", TemplateController_js_1.default.visualizarTemplatesAtivos);
+exports.default = templateRouter;

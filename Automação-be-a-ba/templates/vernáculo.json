@@ -1,0 +1,1 @@
+{"nome": " vern\u00e1culo", "extencao_do_arquivo": "CSV", "tabelas": [{"nome": " nefelibata", "campos": [{"nome": " oferecer", "tipo": "float", "permite_nulo": false}, {"nome": " ousadia", "tipo": "datetime", "permite_nulo": true}]}]}

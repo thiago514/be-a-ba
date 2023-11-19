@@ -1,0 +1,1 @@
+{"nome": " lei", "extencao_do_arquivo": "CSV", "tabelas": [{"nome": " mentecapto", "campos": [{"nome": " questionamento", "tipo": "float", "permite_nulo": true}, {"nome": " facultado", "tipo": "datetime", "permite_nulo": false}, {"nome": " videira", "tipo": "text", "permite_nulo": true}, {"nome": " tange", "tipo": "bool", "permite_nulo": true}]}]}

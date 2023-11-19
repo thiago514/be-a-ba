@@ -1,0 +1,1 @@
+{"nome": " justi\u00e7a", "extencao_do_arquivo": "XLSX", "tabelas": [{"nome": " usufruir", "campos": [{"nome": " un\u00e2nime", "tipo": "bool", "permite_nulo": false}, {"nome": " granjear", "tipo": "text", "permite_nulo": false}, {"nome": " linda", "tipo": "int", "permite_nulo": false}]}]}

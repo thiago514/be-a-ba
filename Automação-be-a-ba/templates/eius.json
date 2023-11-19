@@ -1,0 +1,20 @@
+{
+  "nome": "eius",
+  "extencao_do_arquivo": "CSV",
+  "tabelas": [
+    {
+      "nome": "doloremque",
+      "campos": [
+        { "nome": "beatae", "tipo": "int", "permite_nulo": true },
+        { "nome": "consectetur", "tipo": "float", "permite_nulo": false },
+        { "nome": "dolorum", "tipo": "float", "permite_nulo": false },
+        { "nome": "neque", "tipo": "bool", "permite_nulo": true },
+        { "nome": "omnis", "tipo": "float", "permite_nulo": true },
+        { "nome": "aperiam", "tipo": "float", "permite_nulo": false },
+        { "nome": "neque", "tipo": "text", "permite_nulo": true },
+        { "nome": "sed", "tipo": "int", "permite_nulo": false },
+        { "nome": "quia", "tipo": "datetime", "permite_nulo": false }
+      ]
+    }
+  ]
+}

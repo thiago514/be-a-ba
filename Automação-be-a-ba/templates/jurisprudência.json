@@ -1,0 +1,1 @@
+{"nome": " jurisprud\u00eancia", "extencao_do_arquivo": "CSV", "tabelas": [{"nome": " resplandecer", "campos": [{"nome": " remanescente", "tipo": "int", "permite_nulo": false}, {"nome": " benevol\u00eancia", "tipo": "float", "permite_nulo": true}, {"nome": " zoof\u00edlico", "tipo": "bool", "permite_nulo": false}]}]}
