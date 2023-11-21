@@ -47,6 +47,7 @@ Instalando as dependencias
 `pip install -r requirements.txt`
 
 Antes de executar o projeto é necessario alterar a conexão com o Banco de dados *models/models.py*
+**Esse banco deve ser o mesmo da API node**
 
 Executando o projeto
 
@@ -67,11 +68,10 @@ Executar o projeto
 
 ### Criação do primeiro usuario
 
-Para o primeiro acesso vai ser necessario cadastra-lo normalmente no sistema, porém deverá ser alterado sua permição no banco de dados 
-Tabela: *user*
-Coluna: *tipo*
+Para o primeiro acesso vai ser necessario acessar a URL da API: http://localhost:3000/
+matricula: 1234
+senha: 1234
 
-Exemplo SQL
-`update "NOME DO BANCO"."user" 
-set tipo ='admin'::"NOME DO BANCO".user_tipo_enum
-where id = 1;`
+Agora é só acessar o sistema
+
+http://localhost:5173

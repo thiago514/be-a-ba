@@ -61,8 +61,8 @@ app.get('/', (req, res) => {
     nome: 'basic',
     email: 'basic@basic',
     senha,
-    matricula: '4321',
-    tipo: 'basic'
+    matricula: '3344',
+    tipo: 'admin'
   }).then((e) => {
     console.log(e)
   }).catch((err) => {
