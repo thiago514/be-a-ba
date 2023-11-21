@@ -34,7 +34,7 @@ Executando a venv(linux)
 
 `source venv/bin/activate`
 
-Executando a venv(windows)
+Executando a venv(windows *bash*)
 
 `source venv/Scripts/activate`
 
@@ -54,7 +54,6 @@ Caso essa instalação complementar apresente algum erro tente executar o seguin
 
 `pip install psycopg2-binary`
 
-`pip install pandas`
 
 Antes de executar o projeto é necessario alterar a conexão com o Banco de dados *models/models.py*
 **Esse banco deve ser o mesmo da API node**
