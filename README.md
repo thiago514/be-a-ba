@@ -46,6 +46,16 @@ Instalando as dependencias
 
 `pip install -r requirements.txt`
 
+É necessario installar um dependencia complementar
+
+`pip install psycopg2`
+
+Caso essa instalação complementar apresente algum erro tente executar o seguinte comando
+
+`pip install psycopg2-binary`
+
+`pip install pandas`
+
 Antes de executar o projeto é necessario alterar a conexão com o Banco de dados *models/models.py*
 **Esse banco deve ser o mesmo da API node**
 
