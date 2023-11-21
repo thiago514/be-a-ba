@@ -158,10 +158,8 @@ def gerar_dashboard():
             if log[0].strftime("%d/%m/%Y") not in dias:
                 dias.update({log[0].strftime("%d/%m/%Y"): 1})
             else:
-                print(log[0].strftime("%d/%m/%Y"))
                 dias[log[0].strftime("%d/%m/%Y")] += 1
         format_output = []
-        print(len(busca))
         for dia in dias:
             format_output.append({
                 "name" : dia,

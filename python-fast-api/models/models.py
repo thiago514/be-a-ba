@@ -2,14 +2,18 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, inspect
 
+DB = "QQTech"
+PASSWORD = "5149"
+SCHEMA = "be-a-ba"
+
 # declarative base
 Base = automap_base()
 
-engine = create_engine("postgresql+psycopg2://postgres:5149@localhost/QQTech")
+engine = create_engine("postgresql+psycopg2://postgres:"+PASSWORD+"@localhost/"+DB)
 # engine = create_engine("postgresql+psycopg2://postgres:postgres@postgres-network/public")
 
 # mapeando as tabelas
-Base.prepare(autoload_with=engine, schema="be-a-ba")
+Base.prepare(autoload_with=engine, schema=SCHEMA)
 
 User=Base.classes.user
 Template = Base.classes.template

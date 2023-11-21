@@ -88,8 +88,9 @@ async def save_arquivo(request: Request):
 
         return res
     except Exception as e:
-        os.remove(arquivo_completo.filename)
         return Response(content=str(e), status_code=400)
+    finally:
+        os.remove(arquivo_completo.filename)
 
 
 @router.get("/arquivo", description="Listar arquivos")

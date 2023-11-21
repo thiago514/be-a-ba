@@ -43,6 +43,7 @@ export function alterarStatusUsuario(id, tipo) {
   axios
     .post("http://localhost:3000/user/alterarStatus", { tipo: tipo, id: id })
     .then((response) => {
+      sleep(1000);
       window.location.reload();
     })
     .catch((error) => {
